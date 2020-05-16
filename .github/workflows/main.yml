@@ -44,4 +44,4 @@ jobs:
       - run: |
           rustup toolchain install 1.36.0
           rustup default 1.36.0
-      - run: cargo build --all-targets --workspace
+      - run: cargo build --all-targets --all
